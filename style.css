@@ -1,0 +1,294 @@
+/* Box sizing rules */
+
+* {
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  padding: 0px;
+  margin:0px
+}
+
+/*FONT DARKERGROTESQUE*/
+@font-face {
+  font-family:survival-fonts;
+  src: url(/DarkerGrotesque-ExtraBold.ttf);
+}
+/*FONT MARONE*/
+@font-face {
+  font-family:marone-fonts;
+  src: url(/Manrope-VariableFont_wght.ttf);
+}
+/*div for the body*/
+.body-tag {
+  background-image: url("/images/card-bg-lines.7c1574cf.svg");
+  width: 100%; 
+  height: 500px;
+  background-position:center top ;
+  background-repeat:repeat-y;
+  background-size:auto;
+  
+}
+
+/*div for the images in the body*/
+.body-tag img{
+  background-color: #f4f5f7;
+  width: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 18px;
+}
+
+/*div that cover the what you stand to gain, earn a certificate, get hands on certificate text*/
+.text-div{
+  display: flex;
+  gap:90px;
+}
+
+/*DIV THAT HOLDS  THE  EARN CERTIFICATE, AND GET HANDS ON EXPERIENCE TEXTS*/
+.for-media{
+  display: flex;
+  margin-top: 70px;
+  gap:60px;
+}
+
+/*div that covers learn from the very best and be a part of a fast growing start-up*/
+.tex3{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 40%;
+  gap:90px
+}
+
+
+/*div that covers the what you stand to gain text, the paragragh and signup for free text*/
+.what-you-stand-to-gain-text{
+  margin-left: 35px;
+}
+
+
+/*div that covers the what you stand to gain text only*/
+.what-you-stand-to-gain-text h1{
+  font-family: survival-fonts;
+  color: #2f2f2f;
+  font-weight:bolder;
+  font-size: 48px;
+  margin-bottom: 10%;
+  margin-top: 19%;
+}
+
+/*div that covers the sign for free text*/
+.gain{
+  color:#52a350;
+
+}
+.sign-free {
+  background-color: #52a350;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 5px 20px 5px;
+    border-radius: 10px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+/*DIV THAT COVERS THE SIGN UP FOR FREE LINK(a)*/
+.sign a{
+text-decoration: none;
+ color:white;
+ font-size: 16px;
+ text-align: center;
+ font-family: marone-fonts;
+ font-size: 18px;
+}
+/*DIV FOR THE HOVER OF SIGN FOR FREE TEXT*/
+.sign  :hover{
+  background-color: rgba(144, 238, 144, 0.486);
+  color:green ;
+  }
+  /*div for the images for earn a certificate & get hands on experience*/
+  .text-div img{
+    margin-left: 10px;
+    margin-bottom: 10%;
+  }
+  /*div for the text earn a certificate and get hands on experience*/
+.text-div h2{
+  font-size: 18px;
+  color:#0c180c;
+  font-family: survival-fonts;
+}
+/*div for the paragraphs under the earn a certificate and get hands on experience*/
+.text-div p{
+  font-size:14px;
+  color: #474747;
+  font-family: marone-fonts;
+}
+/*div for the earn a certificate text*/
+.certificate{
+  margin-top: 5%;
+}
+/* div for the get hands on experience */
+.Get-hands-on-experience{
+  margin-top: 5%;
+}
+/*div for the text learm from the best and be a fast growing start up*/
+.tex3 h2{
+  font-size: 18px;
+  color:#0c180c;
+  font-family: survival-fonts;
+}
+/*div for the paragraphs under the learm from the best and be a fast growing start up*/
+.tex3 p{
+  font-size:14px;
+  color: #474747;
+  font-family: marone-fonts;
+  
+}
+/*DIV THAT HOLDS THE IMAGES FOR LEARN FROM THE VERY BEST AND BE A PART OF A FAST GROWING STARTUP*/
+.tex3 img{
+  margin-bottom: 30px;
+}
+
+/*DIV THAT HOLDS BE A PART OF A FAST GROWING STARTUP*/
+.Be-a-part-of-a-fast-growing-startup{
+  margin-bottom: 40%;
+}
+
+/*DIV THAT HOLDS LEAR FROM THE VERY BEST*/
+.Learn-from-the-very-best{
+  margin-bottom: 30%;
+}
+
+/* THE MEDIA QUERRIES IN MY HTML*/
+.media-querry{
+  display: none;
+}
+.mobile-view{
+  display: none;
+}
+.media-s{
+  display: none;
+}
+/* END OF THE MEDIA QUERRIES IN MY HTML*/
+
+
+/*STARTING OF THE DESKTOP VIEW MEDIA QUERRY*/
+@media   (max-width: 1023px){
+
+  /*DIV FOR THE BACKGROUND COLOR AND LINES*/
+  .body-tag {
+    background-image: url("/images/card-bg-lines.7c1574cf.svg");
+    width: 100%; 
+    height: 1300px;
+    background-position:center top ;
+    background-repeat:unset;
+    background-size:auto;
+    
+  }
+  /* DIV THAT HOLDS THE TEXT FOR,(WHAT YOU GAIN TO STAND, SINCE 2020 SIGNFREE TEXT, earn a certificate, get hands on certificate text )*/
+  .text-div{
+    flex-direction: column;
+
+  }
+  /*DIV FOR THE TEXT WHAT YOU STAND TO GAIN IN MY DESKTOP BUT NOW IN RESPONSIVESS MODE (MAIN)*/
+  .what-you-stand-to-gain-text{
+    display: none;
+  }
+  /*DIV FOR THE MEDIA QUERRY THAT I OPEN IN MY HTML*/
+  .media-querry{
+    display: block;
+  }
+  /*DIV FOR THE MEDIA QUERRY FOR H1 TEXT I OPEN IN MY HTML(DESKTOP VIEW)*/
+  .media-querry h1{
+    text-align: center;
+    font-family: survival-fonts;
+  color: #2f2f2f;
+  font-weight:bolder;
+  font-size: 48px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-top: 90px;
+  }
+  /*DIV FOR THE MEDIA QUERRY PARAGRAHP THAT I OPEN IN MY HTML(DESKTOP VIEW)*/
+  .media-querry p{
+   
+    margin-left: 270px;
+  }
+  /*THIS IS THE DIV FOR MEDIA QUERRY...WORDS UNDER THE PARAGRAPH (DESKTOP VIEW)*/
+  .middle{
+    margin-left: 200px;
+  }
+
+
+  /*DIV FOR MEDIA QUERRY DESKTOP VIEW(THE SIGN UP FREE BUTTON)*/
+  .media-s{
+    display: block;
+  }
+  
+  /*DIV FOR MEDIA QUERRY DESKTOP VIEW BACKGROUND CONTENT(THE SIGN UP FREE BUTTON)*/
+  .media-free {
+    background-color: #52a350;
+      border-style: solid;
+      border-width: 1px;
+      padding: 20px 5px 20px 5px;
+      border-radius: 10px;
+      margin-right: 350px;
+      margin-top: 30px;
+      margin-left: 450px;
+  }
+  /*DIV FOR MEDIA QUERRY DESKTOP VIEW THE.....href link(THE SIGN UP FREE BUTTON)*/
+  .media-s a{
+  text-decoration: none;
+   color:white;
+   font-size: 16px;
+   text-align: center;
+   font-family: marone-fonts;
+   font-size: 18px;
+   
+  
+  }
+  /*DIV FOR MEDIA QUERRY DESKTOP VIEW THE.....the hover(THE SIGN UP FREE BUTTON)*/
+  .media-s  :hover{
+    background-color: rgba(144, 238, 144, 0.486);
+    color:green ;
+    }
+   
+    /*DIV THAT COVER THE  EARN CERTIFICATE, AND GET HANDS ON EXPERIENCE TEXTS-->in the desktop view*/
+    .for-media{
+      margin-left: 200px;
+      margin-bottom: 50px;
+      gap:120px;
+    }
+    /* DIV THAT COVER THE  EARN CERTIFICATE, AND GET HANDS ON EXPERIENCE h2 TEXTS*/
+    .for-media h2{
+      margin-bottom: 3%;
+      text-align: center;
+    }
+    /* DIV THAT COVER THE  EARN CERTIFICATE, AND GET HANDS ON EXPERIENCE images*/
+    .for-media img{
+      margin-left: 90px;
+    }
+    /* DIV THAT HOLDS THE TEXT FOR LEARN FROM THE VERY BEST AND BE A PART OF A FAST GROWING STARTUP*/
+    .tex3{
+   margin: auto;
+   margin-top:4% ;
+   margin-left: 100px;
+    }
+    /* DIV THAT HOLDS THE H2 TEXT FOR LEARN FROM THE VERY BEST AND BE A PART OF A FAST GROWING STARTUP*/
+    .tex3 h2{
+      margin:4%;
+    }
+    /* DIV THAT HOLDS THE H2 TEXT FOR LEARN FROM THE VERY BEST*/
+    .Learn-from-the-very-best h2{
+      text-align: center;
+    }
+    /*  DIV THAT HOLDS THE IMAGES FOR LEARN FROM THE VERY BEST AND BE A PART OF A FAST GROWING STARTUP*/
+    .tex3 img{
+      margin-left: 100px;
+    }
+  }
+
+
+ 
